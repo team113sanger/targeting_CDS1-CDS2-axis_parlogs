@@ -1,3 +1,4 @@
+data/OmicsExpressionProteinCodingGenesTPMLogp1(23Q4).csv filter=lfs diff=lfs merge=lfs -text
 *.Rprofile filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
 *.tsv filter=lfs diff=lfs merge=lfs -text
