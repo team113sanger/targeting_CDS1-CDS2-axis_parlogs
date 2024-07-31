@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:06e052e3578369f4db0d29404cc60d875c13a861d02a4c71a53467e32c922db0
-size 725
+{
+    "name": "R (rocker/r-ver base)",
+    "image": "ghcr.io/rocker-org/devcontainer/r-ver:4.2",
+    "features": {
+        "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
+            "version": "prerelease"
+        },
+        "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+            "packages": "libudunits2-dev,libxtst6,libxt6,libmagick++-dev"
+        },
+        "ghcr.io/rocker-org/devcontainer-features/r-packages:1": {
+            "packages": "github::rstudio/renv,tidyverse,here,httpgd"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": ["mechatroner.rainbow-csv"]
+        },
+        "codespaces": {
+            "openFiles": ["README.md"]
+        }
+    }
+}
