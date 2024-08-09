@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9493dd72b03c11e46d3e48a982d2f70da23d421dce437203a1327d56e7e42dcb
-size 465
+# CDS1-CDS2-axis-results
+##TODO
+
+### Setup
+
+
+##TODO
+You should be able to reproduce the scripts bundled in this package via several steps.
+
+
+All commands below are intended to be run in a Bash shell from the root of the project directory.
+
+Several large files are bundled into this analysis and stored via git-lfs (see https://git-lfs.com). If you install git-lfs on your machine, you should be able to fetch these files with: 
+
+```
+git lfs install
+git lfs pull
+```
